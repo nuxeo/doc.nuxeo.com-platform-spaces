@@ -126,7 +126,7 @@ To login:
 --}}
 ![Adobe login connector](nx_asset://60bb96ca-75a3-4dc4-92d4-0e1a5cdf90bf ?w=350,border=true)
 
-You should now see the connector populated with images that reside in your Nuxeo instance.
+You should now see the Connector populated with images that reside in your Nuxeo instance.
 
 {{#> callout type='info'}}
 If, however, you see something like this, then contact your Nuxeo Admin to confirm the proper Nuxeo for Adobe CC marketplace package is installed.  
@@ -172,7 +172,7 @@ The Connector has a number of customizable preferences to enhance your workflow.
 
 **Download Options**
 - Open File on Download
-  - When checked: opens any downloaded file if possible (depends on Adobe app).  It is best to have this checked if you intend to use the connector for intereacting with Indesign files, as it is the most efficient way to open Indesign files with the connector.
+  - When checked: opens any downloaded file if possible (depends on Adobe app).  It is best to have this checked if you intend to use the Connector for interacting with Indesign files, as it is the most efficient way to open Indesign files with the Connector.
 - Save to default folder: saves downloaded files to your `User Documents\nuxeo_connector_files\downloads` folder.
   - When unchecked: the User will be presented with the system browser to choose a folder.
 - Choose folder location: select the location for your downloads.
@@ -213,7 +213,7 @@ Results are shown in pages and you can navigate between pages using the arrow ke
 
 You can also jump to a given page.
 
-Whenever using the connector, if you want to perform a search, you can choose **Search** from the Nuxeo CC Connector panel fly out menu, or just click on the Search widget.
+Whenever using the Connector, if you want to perform a search, you can choose **Search** from the Nuxeo CC Connector panel fly out menu, or just click on the Search widget.
 
 To see more information about the object, double click the thumbnail to see more information.
 Each object comes with a detail view containing:
@@ -240,7 +240,7 @@ To download a copy of an asset from Nuxeo CC Connector, click the blue download 
 
 The Browse tab allows you to browse through the hierarchical setup of the repository. It uses the `adobe-connector-browse` page provider. While browsing, you can still use the search bar; the search content is limited to the level in the hierarchy that you are currently viewing. You have the choice between a grid view (default) and a list view. You can toggle between view options using the buttons near the search bar.
 
-The browse tab is easy to use by clicking on the folders in the hierarchy. Note that as you click through the repository, a breadcrumb is generated just above the content view, which allows you to easily go back to any point within your path. Simply click on one of the levels to change location. If your path becomes too long to fit the panel, a slider appears to allow you to move “up” or “down” the path.
+The Browse tab is easy to use by clicking on the folders in the hierarchy. Note that as you click through the repository, a breadcrumb is generated just above the content view, which allows you to easily go back to any point within your path. Simply click on one of the levels to change location. If your path becomes too long to fit the panel, a slider appears to allow you to move “up” or “down” the path.
 
 As indicated earlier, to see more information about an object, double click into the item to see the detail view, where you can also download the file.
 
@@ -272,12 +272,12 @@ Nuxeo CC Connector Menu Listings (accessed via the burger menu)
 The Nuxeo CC Connector fly out menu has several options to assist the user:
 - **About** takes you to our [website](https://www.nuxeo.com/)
 - **Refresh** re-establishes an updated connection to your current folder
-- **Upload from Disk** opens your System Browser to upload an asset to your current Connector folder
-- **Upload Selected** uploads locally placed assets in InDesign to your current Connector folder.  After the uploads have occurred, you will notice that the connector will also "re-link" your assets and you should see a Nuxeo URL pointing to the asset in your links panel (instead of a local path).
+- **Upload from Disk** opens your System file browser to upload an asset to your current Connector folder
+- **Upload Selected** uploads locally placed assets in InDesign to your current Connector folder.  After the uploads have occurred, you will notice that the Connector will also "re-link" your assets and you should see a Nuxeo URL pointing to the asset in your links panel (instead of a local path).
 - **Upload InDesign Document** uploads open (If saved) InDesign doc to your current Connector folder. You will be presented with an Upload option to either, Upload New File, or Replace.
 - **Compound Doc Info** ensures HTTP links record a proper ID on the Nuxeo Server
-- **Upload All Non-HTTP Assets** uploads all locally placed InDesign assets from your open InDesign document to your current Connector folder.  After the uploads have occurred, you will notice that the connector will also "re-link" your assets and you should see a Nuxeo URL pointing to the asset in your links panel (instead of a local path).
-- **Relink to Current Folder** relinks locally placed InDesign assets to the Current Connector folder, if they have been saved to the location using one of the above methods.
+- **Upload All Non-HTTP Assets** uploads all locally placed InDesign assets from your open InDesign document to your current Connector folder.  After the uploads have occurred, you will notice that the Connector will also "re-link" your assets and you should see a Nuxeo URL pointing to the asset in your links panel (instead of a local path).
+- **Relink to Current Folder** relinks locally placed InDesign assets to the current Connector folder, if they have been saved to the location using one of the above methods.
 - **Preferences** opens Nuxeo CC Connector Preferences
 - **About Silicon Publishing** takes you to siliconpublishing.com
 
@@ -295,11 +295,11 @@ Starting from a **new INDD file**:
     Formats supported for placing include: jpg, png, ai, eps, psd, eps, tif/tiff, and bmp.
     {{/callout}}
 
-1. For local files, place them as usual, then use the connector menu panel to upload them to the repository.
+1. For local files, place them as usual, then use the Connector menu panel to upload them to the repository.
 1. Select the local files and choose to “upload selected items” in the menu list
 or
 1. Use the menu list and choose to “upload non-http items”
-1. Once local items are in the repository, be sure to check that the links have been updated to refelect the location in the repository.  If not, then use the “relink to current location” from the connector burger menu list. This will ensure the links are maintained server side.
+1. Once local items are in the repository, be sure to check that the links have been updated to refelect the location in the repository.  If not, then use the “relink to current location” from the Connector burger menu list. This will ensure the links are maintained server side.
 1. If you have not already browsed to the location where you want to store the InDesign file, use the browse tab to navigate to your intended destination.
 Upload the INDD document using the Nuxeo CC Connector fly out menu (Upload Indesign Document).
 
@@ -315,11 +315,11 @@ You will be asked if you want to **Upload new file** or **Replace**. As a new fi
 
 
 {{#> callout type='warning' }}
-If you intend to continue working on this document, **immediately after** the initial save to the repository, **YOU MUST** first close the document, then open again by dragging and dropping the file from the panel, into the main InDesign window. This ensures future uploads of the file will be recognized as replacements for this file.
+If you intend to continue working on this document, **immediately after** the initial save to the repository, **YOU MUST** first close the document, then open again by downloading the file from the details view. This ensures future uploads of the file will be recognized as replacements for this file.
 {{/callout}}
 
 Working with an existing repository InDesign file:
-To open InDesign files stored in the repository, double click on the item in the panel to open the "detail" view for the object (as desicribed above).  Use the "download" action/button to open the file.  If you do not see the item open, please open the preferences for the connector as described above and choose to 'open file on download'.
+To open InDesign files stored in the repository, double click on the item in the panel to open the "detail" view for the object (as desicribed above).  Use the "download" action/button to open the file.  If you do not see the item open, please open the preferences for the Connector as described above and choose to 'open file on download'.
 
 After you have worked on your file (following instructions above for placing assets), use the Nuxeo Adobe Connector fly out menu to upload the file as before. Use "Replace" to update the same file in the DAM. Use "New" to create a new file in the DAM.
 
@@ -336,7 +336,7 @@ Using the Nuxeo CC Connector includes features within the traditional InDesign L
 --}}
 ![](nx_asset://8b19591e-f3a8-43fb-9fa6-04c3116200e2 ?w=350,border=true)
 
-Choose to work with the high resolution (HQ) or low resolution (LQ) rendition of the file by double clicking the entry in the Nuxeo column in the panel (you might need to expose the column in the “Panel Options” seen in the panel fly out).
+Choose to work with the high resolution (HQ) or low resolution (LQ) rendition of the file by double clicking the entry in the Nuxeo column in the panel (you might need to expose the column in the “Panel Options” seen in the links panel fly out).
 Be notified when updates have been made to the placed repository items, so that you can update the items in the InDesign document (note - you also see this on the placed image within the document)
 Select a link and choose to “Reveal in Nuxeo” which will open the file in your Nuxeo web instance to see more information about the file.
 
