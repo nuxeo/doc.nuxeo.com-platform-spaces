@@ -299,7 +299,7 @@ Starting from a **new INDD file**:
 1. Select the local files and choose to “upload selected items” in the menu list
 or
 1. Use the menu list and choose to “upload non-http items”
-1. Once local items are in the repository, be sure to check that the links have been updated to refelect the location in the repository.  If not, then use the “relink to current location” from the Connector burger menu list. This will ensure the links are maintained server side.
+1. Once local items are in the repository, be sure to check that the links have been updated to reflect the location in the repository.  If not, then use the “relink to current location” from the Connector burger menu list. This will ensure the links are maintained server side.
 1. If you have not already browsed to the location where you want to store the InDesign file, use the browse tab to navigate to your intended destination.
 Upload the INDD document using the Nuxeo CC Connector fly out menu (Upload Indesign Document).
 
