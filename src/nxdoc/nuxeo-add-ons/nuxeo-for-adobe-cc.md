@@ -166,8 +166,8 @@ The Connector has a number of customizable preferences to enhance your workflow.
 
 **Place Options (InDesign only)**
 - Replace Selected on place
-  - When checked: Replaces any selected object with the asset you drag onto the page.
-  - When unchecked: Dragging an item to the page, places it as a new object.
+  - When checked: replaces any selected object with the asset you drag onto the page.
+  - When unchecked: dragging an item to the page, places it as a new object.
 - Choose between High and Low Resolution on Place
 
 **Download Options**
