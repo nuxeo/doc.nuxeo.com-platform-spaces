@@ -3,7 +3,7 @@ title: Nuxeo for Adobe CC
 description: 'The Nuxeo for Adobe CC addon enables creative users to interact directly with Nuxeo repository assets from within InDesign, Photoshop or Illustrator.'
 review:
     comment: ''
-    date: '2020-11-06'
+    date: '2021-04-13'
     status: ok
 labels:
     - adobe-cc
@@ -42,10 +42,11 @@ Watch the related courses on Nuxeo University:</br>
 ## Requirements
 
 Nuxeo for Adobe CC works with Adobe CC 2020 and 2021 and requires Nuxeo Platform 9.10 or newer, along with the appropriate Nuxeo for Adobe CC marketplace package installed on your Nuxeo instance.
-Make sure that the Nuxeo DAM addon is installed on your instance and, ideally, that the DAM external template has been included in your Studio package (template should not be required, however). 
-  {{#> callout type='info' }}
+Make sure that the Nuxeo DAM addon is installed on your instance and, ideally, that the DAM external template has been included in your Studio package (template should not be required, however).
+
+{{#> callout type='info' }}
 Beginning with Nuxeo 2021, many of the DAM features have been embedded into the Platform and no longer exist as an addon, and the DAM addon no longer needs to be installed separately.
-  {{/callout}}
+{{/callout}}
 
 ## Support
 
@@ -57,9 +58,8 @@ Installation is made of two steps:
 
 1. Install the [server-side Nuxeo Package](https://connect.nuxeo.com/nuxeo/site/marketplace/package/adobe-connector-package) available from the marketplace.
 
+1. Please contact your Nuxeo Account Executive for access to the local client side plugin installation.
 
-2. Please contact your Nuxeo Account Executive for access to the local client side plugin installation.
-	
 	{{#> callout type='info' }}
   If you have used a previous version of the Nuxeo Adobe Connector, clear the application preferences by pressing and holding `Alt+Control+Shift` (on Windows) or `Option+Command+Shift` (on macOS) as you start Photoshop/InDesign/Illustrator
   {{/callout}}
@@ -75,7 +75,8 @@ Once Nuxeo for Adobe CC is properly installed, launch InDesign CC 2020/2021 (lic
 If you have questions related to licensing, contact your Nuxeo sales representative or contact Nuxeo at contact@nuxeo.com.
 
 ## Using Nuxeo CC Connector
-The below information pertains to the local client install of **1.2.12 or newer** (available since April 2021)
+
+The below information pertains to the local client install of **1.2.12 or newer** (available since April 2021).
 
 ### Logging into Your Server
 
@@ -290,7 +291,7 @@ Starting from a **new INDD file**:
 1. Once you’ve found an image to use, drag it into to your InDesign document (can be from any view).
     {{#> callout type='note' }}
     Before dropping it, releasing your mouse button to load your cursor with the asset’s thumbnail. Then drag your image to size and place it into your document.
-    {{/callout}} 
+    {{/callout}}
     {{#> callout type='info' }}
     Formats supported for placing include: jpg, png, ai, eps, psd, eps, tif/tiff, and bmp.
     {{/callout}}
@@ -344,7 +345,6 @@ Using the Nuxeo for Adobe CC Connector for creating and placing content has the 
 
 We are working on a sample to show you how this can be used in real life.  Check back here for updates.
 
-
 #### Working in Photoshop/Illustrator
 
 Photoshop and Illustrator have access to Nuxeo CC Connector when you install the program.
@@ -390,6 +390,7 @@ Nuxeo CC Connector has two parts: an extension to provide the panel and a plug-i
 ```
 
 ### On Windows
+
 You can use the Windows Control Panel to uninstall Nuxeo for Adobe CC like you would do with any other installed application. If you need to uninstall manually, you can remove the following folders:
 - Remove the extension folder:
 ```
@@ -402,6 +403,7 @@ C:\Program Files\Adobe\Adobe InDesign CC 201x\Plug-Ins\SiliconConnectorNuxeo.
 ```
 
 ## Network Considerations (for Nuxeo Administrators)
+
 Since Nuxeo CC Connector requires network access to Nuxeo and the Silicon Publishing licensing server, there are certain network requirements to consider. You may find that working from home, where there is not proxy or firewall, you can use Silicon Connector for Box without a problem, but at work you run into errors when trying to activate or use it.
 
 ### Proxy
